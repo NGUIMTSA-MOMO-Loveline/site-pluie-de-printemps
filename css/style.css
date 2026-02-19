@@ -1,0 +1,177 @@
+body
+{
+    background-color: plum;
+}
+img 
+{
+    width: 100%;
+}
+figure 
+{
+    margin: 0;
+    padding: 0;
+}
+header,main,footer 
+{
+    border: black 2px solid;
+    margin-bottom: 20px;
+    padding: 10px
+}
+section 
+{
+    border: red 2px solid;
+    padding: 10px
+}
+div
+{
+    border: purple 2px solid;
+    padding: 10px;
+    background-color: white;
+    border-radius: 10px;
+}
+article
+{
+    border: blue 2px solid;
+    padding: 10px
+}
+figure
+{
+    border: green 2px solid;
+    padding: 10px
+}
+.flex
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.smallbox
+{
+    width: 70%;
+    margin: auto;
+}
+.smallbox div
+{
+    width: 20%;
+    margin-bottom: 50px;
+}
+.smallbox button
+{
+   display: block;     
+   margin: auto;
+   border: 1px solid white; 
+   margin-bottom: 20px;
+}
+.smallbox p
+{
+   width: 80%;
+   margin: auto;
+   margin-bottom: 20px;
+   text-align: center;    
+}
+.ensemble-article
+{
+    width: 80%;
+    margin: auto;
+}
+.ensemble-article h2
+{
+   width: 100%;
+   margin: auto;
+   border: 1px solid orange; 
+   margin-bottom: 20px;
+   text-align: center;
+}
+.ensemble-article article
+{
+    width: 40%;  
+    margin-bottom: 30px; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* centre vertical */
+    align-items: center;     /* centre horizontal */
+    text-align: center;
+}
+footer
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around; 
+}
+.tel
+{
+    display: block;
+    margin: auto;
+}
+.adress
+{
+    display: block;
+    margin: auto;
+}
+.logo
+{
+    
+}
+.navbar
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    
+}
+
+.hero 
+{
+    height: 100vh; /* prend toute la hauteur de l’écran */
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* centre vertical */
+    align-items: center;     /* centre horizontal */
+    text-align: center;
+    position: relative;
+
+    /* Superposition des deux images */
+    background-image: 
+        url("../images/fleurs-premiere-page.png"),
+        url("../images/fleur-acc2.png");
+    background-position: center, center;
+    background-repeat: no-repeat, no-repeat;
+    
+}
+
+/* Icône panier en haut à droite */
+.shop-icon 
+{
+    position: absolute;
+    top: 45px;
+    right: 160px;
+    font-size: 28px;
+    text-decoration: none;
+}
+
+/* Titre */
+.hero h1 {
+    font-size: 48px;
+    color: white;
+    margin-bottom: 20px;
+}
+
+/* Bouton */
+.hero button 
+{
+    padding: 12px 25px;
+    font-size: 18px;
+    border: none;
+    border-radius: 30px;
+    background-color: darkblue;
+    color: white;
+    cursor: pointer;
+}
+
+.hero button:hover 
+{
+    background-color: gainsboro;
+}
