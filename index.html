@@ -3,6 +3,10 @@
 <head>  
     <title>Pluie de printemps</title>
      <link href="css/style.css" rel="stylesheet" type="text/css">
+
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400..700;1,400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
@@ -15,7 +19,7 @@
                 <a href="#">Footer</a>
             </nav>
         </section>
-        <section class="hero">
+        <section class="flex hero">
             <a href="#" class="shop-icon">&#x1F6CD;</a>
             <h1>Pluie de Printemps</h1>
             <a href="#">
@@ -54,7 +58,7 @@
             </p>
         </section>
         <section>
-            <figure>
+            <figure class="horizontal-scroll">
                 <img src="images/fleurs%20carousel.png" alt="image d'une fleur">
                 <img src="images/fleurs%20carousel2.png" alt="image d'une fleur">
                 <img src="images/fleurs%20carousel3.png" alt="image d'une fleur">
@@ -67,33 +71,33 @@
             </figure>
         </section>
         <section class="flex ensemble-article">
-            <article>
+            <article class="plant">
                 <figure>
-                    <img src="images/fleur%20plant1.png" alt="image de fleur">
+                    <!--<img src="images/fleur%20plant1.png" alt="image de fleur">-->
                     <!--<img src="images/fleur%20plant2.png" alt="image de fleur">
                     <img src="images/fleur%20plant3.png" alt="image de fleur">-->
                     <p>Découvrez la plante qui vous ressemble.</p>
                     <h2>Plants</h2>
                     <a href="#">
-                        <button>Discover </button>
+                        <button class="discover">Discover </button>
                     </a> 
                 </figure>
             </article>
-            <article>
+            <article class="gift">
                 <figure>
-                    <img src="images/fleur%20gift1.png" alt="image d'un bouquet de fleur">
+                    <!--<img src="images/fleur%20gift1.png" alt="image d'un bouquet de fleur">-->
                     <!--<img src="images/fleur%20plant2.png" alt="image de fleur">
                     <img src="images/fleur%20plant3.png" alt="image de fleur">-->
                     <p>Offrir des fleurs, c’est offrir une émotion vivante.</p>
                     <h2>Gifts</h2>
                     <a href="#">
-                        <button>Discover </button>
+                        <button class="discover">Discover </button>
                     </a>
                 </figure> 
             </article>
         </section>
     </main>
-    <footer>
+    <footer class="flex">
         <section class="flex tel">
             <figure>
             <a href="#">Tel : 06 83 57 49 37</a>
